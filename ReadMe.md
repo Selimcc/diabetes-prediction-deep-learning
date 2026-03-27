@@ -45,6 +45,7 @@ The features include various health and lifestyle indicators such as BMI, blood 
 ## Project Structure
 
 The project is organized as follows:
+
 Projet/
 - diabetes_binary_health_indicators_BRFSS2015.csv
 - livrable1_pretraitement.ipynb
