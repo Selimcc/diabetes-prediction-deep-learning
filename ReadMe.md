@@ -46,14 +46,12 @@ The features include various health and lifestyle indicators such as BMI, blood 
 
 The project is organized as follows:
 Projet/
-│
-├── diabetes_binary_health_indicators_BRFSS2015.csv
-├── livrable1_pretraitement.ipynb
-├── train_clean.csv
-├── val_clean.csv
-├── test_clean.csv
-└── README.md
-
+- diabetes_binary_health_indicators_BRFSS2015.csv
+- livrable1_pretraitement.ipynb
+- train_clean.csv
+- val_clean.csv
+- test_clean.csv
+- README.md
 - `livrable1_pretraitement.ipynb`: notebook containing all preprocessing steps
 - `train_clean.csv`, `val_clean.csv`, `test_clean.csv`: cleaned and split datasets ready for modeling
 
@@ -96,14 +94,14 @@ These choices were made to ensure both data quality and methodological rigor.
 
 The next stages of the project will focus on model development and evaluation. Planned tasks include:
 
-- Implementation of baseline models (e.g. logistic regression, decision trees)
-- Development of deep learning models (neural networks)
-- Application of normalization and feature scaling where required
+- Development of a deep learning model (neural network)
+- Application of normalization techniques where required
 - Handling class imbalance if necessary
-- Model evaluation using appropriate metrics (ROC AUC, precision, recall)
+- Model evaluation using appropriate metrics (ROC AUC)
 - Hyperparameter tuning and model optimization
 - Interpretation of results and identification of key predictive features
 
+If relevant, simpler models may be explored for comparison purposes.
 ---
 
 ## Collaboration
