@@ -45,14 +45,14 @@ The features include various health and lifestyle indicators such as BMI, blood 
 ## Project Structure
 
 The project is organized as follows:
+
 Projet/
-│
-├── diabetes_binary_health_indicators_BRFSS2015.csv
-├── livrable1_pretraitement.ipynb
-├── train_clean.csv
-├── val_clean.csv
-├── test_clean.csv
-└── README.md
+- diabetes_binary_health_indicators_BRFSS2015.csv
+- livrable1_pretraitement.ipynb
+- train_clean.csv
+- al_clean.csv
+- test_clean.csv
+- README.md
 
 - `livrable1_pretraitement.ipynb`: notebook containing all preprocessing steps
 - `train_clean.csv`, `val_clean.csv`, `test_clean.csv`: cleaned and split datasets ready for modeling
